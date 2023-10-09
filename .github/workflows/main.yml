@@ -1,8 +1,8 @@
 name: Activity Summary
 
 on: push
-  # schedule:
-  #   - cron: '30 7 * * 0'
+  schedule:
+    - cron: '30 7 * * 0'
 
 jobs:
   build:
