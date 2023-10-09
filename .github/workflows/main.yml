@@ -35,5 +35,5 @@ jobs:
         SMTP_SSL: TRUE
       run: |
         cd github-notify-ml
-        python index.py
+        python index.py Monday
       
