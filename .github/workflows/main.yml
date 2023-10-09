@@ -1,6 +1,6 @@
 name: Activity Summary
 
-on: push
+on:
   schedule:
     - cron: '30 7 * * 0'
 
