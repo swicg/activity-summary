@@ -30,7 +30,7 @@ jobs:
       env:
         GH_OAUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SMTP_HOST: smtp.fastmail.com
-        SMTP_USERNAME: mnot@mnot.net
+        SMTP_USERNAME: capjamesg@fastmail.com
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
         SMTP_SSL: TRUE
       run: |
